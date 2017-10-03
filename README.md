@@ -8,9 +8,13 @@
   <a href="https://david-dm.org/kaizen7-nz/gold-star-charte#info=devDependencies">
     <img src="https://david-dm.org/kaizen7-nz/gold-star-chart/dev-status.svg" alt="devDependency Status" />
   </a>
-  <!-- Build Status -->
+  <!-- travis Build Status -->
   <a href="https://travis-ci.org/kaizen7-nz/gold-star-chart">
     <img src="https://travis-ci.org/kaizen7-nz/gold-star-chart.svg" alt="Build Status" />
+  </a>
+  <!-- appveyor Build Status -->
+  <a href="https://ci.appveyor.com/project/alphafoobar/gold-star-chart">
+    <img src="https://ci.appveyor.com/api/projects/status/onu4bw5mi1ylj120?svg=true" alt="Build Status" />
   </a>
   <!-- Test Coverage -->
   <a href="https://coveralls.io/r/kaizen7-nz/gold-star-chart">
