@@ -23,7 +23,7 @@ export default defineMessages({
     defaultMessage: 'english',
   },
   es: { // spanish
-    id: 'boilerplate.containers.LocaleToggle.de',
+    id: 'boilerplate.containers.LocaleToggle.es',
     defaultMessage: 'Español',
   },
   fr: { // french
