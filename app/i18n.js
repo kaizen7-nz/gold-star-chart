@@ -17,8 +17,19 @@ addLocaleData(enLocaleData);
 addLocaleData(deLocaleData);
 
 export const appLocales = [
-  'en',
+  'ar',
+  'ca',
   'de',
+  'en',
+  'es',
+  'fr',
+  'id',
+  'ja',
+  'ko',
+  'pt',
+  'ru',
+  'zh',
+  'zh_hk',
 ];
 
 export const formatTranslationMessages = (locale, messages) => {
@@ -34,6 +45,17 @@ export const formatTranslationMessages = (locale, messages) => {
 };
 
 export const translationMessages = {
-  en: formatTranslationMessages('en', enTranslationMessages),
+  ar: formatTranslationMessages('ar', enTranslationMessages),
+  ca: formatTranslationMessages('ca', enTranslationMessages),
   de: formatTranslationMessages('de', deTranslationMessages),
+  en: formatTranslationMessages('en', enTranslationMessages),
+  es: formatTranslationMessages('es', enTranslationMessages),
+  fr: formatTranslationMessages('fr', enTranslationMessages),
+  id: formatTranslationMessages('id', enTranslationMessages),
+  ja: formatTranslationMessages('ja', enTranslationMessages),
+  ko: formatTranslationMessages('ko', enTranslationMessages),
+  pt: formatTranslationMessages('pt', enTranslationMessages),
+  ru: formatTranslationMessages('ru', enTranslationMessages),
+  zh: formatTranslationMessages('zh', enTranslationMessages),
+  zh_hk: formatTranslationMessages('zh_hk', enTranslationMessages),
 };
