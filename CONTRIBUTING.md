@@ -1,6 +1,6 @@
-# Contributing to react-boilerplate
+# Contributing to gold-star-chart
 
-Love react-boilerplate and want to help? Thanks so much, there's something to do for everybody!
+The gold-star-chart is based on [react-boilerplate](https://github.com/react-boilerplate/react-boilerplate)
 
 Please take a moment to review this document in order to make the contribution process easy and effective for everyone involved.
 
@@ -8,7 +8,7 @@ Following these guidelines helps to communicate that you respect the time of the
 
 ## Using the issue tracker
 
-The [issue tracker](https://github.com/react-boilerplate/react-boilerplate/issues) is
+The [issue tracker](https://github.com/kaizen7-nz/gold-star-chart/issues) is
 the preferred channel for [bug reports](#bugs), [features requests](#features)
 and [submitting pull requests](#pull-requests).
 
@@ -51,7 +51,9 @@ Example:
 <a name="features"></a>
 ## Feature requests
 
-Feature requests are welcome. But take a moment to find out whether your idea fits with the scope and aims of the project. It's up to *you* to make a strong case to convince the project's developers of the merits of this feature. Please provide as much detail and context as possible.
+Feature requests are welcome. But take a moment to find out whether your idea fits with the scope and 
+aims of the project. It's up to *you* to make a strong case to convince the project's developers of 
+the merits of this feature. Please provide as much detail and context as possible.
 
 
 <a name="pull-requests"></a>
@@ -81,11 +83,11 @@ included in the project:
 
    ```bash
    # Clone your fork of the repo into the current directory
-   git clone https://github.com/<your-username>/react-boilerplate.git
+   git clone https://github.com/<your-username>/gold-star-chart.git
    # Navigate to the newly cloned directory
-   cd react-boilerplate
+   cd gold-star-chart
    # Assign the original repo to a remote called "upstream"
-   git remote add upstream https://github.com/react-boilerplate/react-boilerplate.git
+   git remote add upstream https://github.com/kaizen7-nz/gold-star-chart.git
    ```
 
 2. If you cloned a while ago, get the latest changes from upstream:
@@ -116,18 +118,17 @@ included in the project:
    ```
 
 7. [Open a Pull Request](https://help.github.com/articles/using-pull-requests/)
-    with a clear title and description.
+    [with a clear title and description](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html) 
+    and if possible a reference to the feature or issue related to the change.
 
 **IMPORTANT**: By submitting a patch, you agree to allow the project
-owners to license your work under the terms of the [MIT License](https://github.com/react-boilerplate/react-boilerplate/blob/master/LICENSE.md).
+owners to license your work under the terms of the [MIT License](https://github.com/kaizen7-nz/gold-star-chart/blob/master/LICENSE.md).
 
 # Collaborating guidelines
-You can find the list of all maintainers in [MAINTAINERS.md](./MAINTAINERS.md).
 
-There are few basic rules to ensure high quality of the boilerplate:
+There are few basic rules to ensure high quality:
 
- - Before merging, a PR requires at least two approvals from the collaborators unless it's an architectural change, a large feature, etc. If it is, then at least 50% of the core team have to agree to merge it, with every team member having a full veto right. (i.e. every single one can block any PR)
- - A PR should remain open for at least two days before merging (does not apply for trivial contributions like fixing a typo). This way everyone has enough time to look into it.
-
+ - Before developing a feature/bug-fix some collaborative programming should have been undertaken to understand it.
+ - Before merging, a PR requires at least one approval from the collaborators.
 
 You are always welcome to discuss and propose improvements to this guideline.
