@@ -85,7 +85,7 @@ JavaScript, HTML and tests.
 The rest of the folders and files only exist to make your life easier, and
 should not need to be touched.
 
-*(If they do have to be changed, please [submit an issue](https://github.com/react-boilerplate/react-boilerplate/issues)!)*
+*(If they do have to be changed, please [submit an issue](https://github.com/kaizen7-nz/gold-star-chart/issues)!)*
 
 ### CSS
 
@@ -99,7 +99,7 @@ See the [CSS documentation](./css/README.md) for more information.
 
 ### JS
 
-We bundle all your clientside scripts and chunk them into several files using
+We bundle all your client-side scripts and chunk them into several files using
 code splitting where possible. We then automatically optimize your code when
 building for production so you don't have to worry about that.
 
